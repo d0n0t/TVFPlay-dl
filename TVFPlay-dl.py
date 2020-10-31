@@ -9,7 +9,7 @@ if len(sys.argv) < 2:
 
 url = sys.argv[1]
 
-if not url.startswith("https://tvfplay.com/episode/"):
+if not url.startswith("https://tvfplay.com/"):
     print("Specified URL appears to be invalid or not supported.")
     sys.exit(0)
 
