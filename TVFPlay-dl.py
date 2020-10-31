@@ -13,7 +13,7 @@ if not url.startswith("https://tvfplay.com/"):
     print("Specified URL appears to be invalid or not supported.")
     sys.exit(0)
 
-tvfapi_url = url.replace("https://tvfplay.com/","https://tvfplay.com/api/")
+tvfapi_url = url.replace("https://tvfplay.com/")
 
 tvfapi_response = requests.get(tvfapi_url)
 
